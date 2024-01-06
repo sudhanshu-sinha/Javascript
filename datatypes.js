@@ -1,7 +1,7 @@
-/* permitive 
+/* permitive  (uses stack memory type)
     => 7 types : String, Number, Boolean, null, undefined, symbol, BigInt
    
-   Non primitive (Reference Type)
+   Non primitive (Reference Type)   (uses heap memory type)
     => Array, Objects, Functions
 */
 
