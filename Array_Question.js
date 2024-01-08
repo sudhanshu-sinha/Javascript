@@ -14,3 +14,7 @@ Print, [9, 0, -2] */
 
 console.log(array.slice(array.length-n))
 
+/*  Write a JavaScript program to check if an element exists in an array or not. */
+
+console.log(array.includes(9))
+console.log(array.includes(99))
