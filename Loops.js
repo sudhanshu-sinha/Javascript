@@ -15,11 +15,17 @@ console.log(arr)
 /* Write a JS program to find the no of digits in a number.
 Example : if number = 287152, count = 6 */
 
+/* Write a JS program to find the sum of digits in a number.
+Example : if number = 287152, sum = 25 */
+
 let number = 287152
 let copy = number
 let count = 0
+let sum = 0
 while(copy>0){
     count++
+    sum += Math.floor(copy%10)
     copy = Math.floor(copy/10)
 }
 console.log(count)
+console.log(sum)
