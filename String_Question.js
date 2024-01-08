@@ -18,3 +18,7 @@ else{
     console.log("Chater is not in lower case")
 }
 
+/*  Write a JavaScript program to strip leading and trailing spaces from a string. */
+
+let str2 = "   Sunny  "
+console.log(`String without spaces ${str2.trim()}`)
