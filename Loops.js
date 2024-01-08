@@ -46,3 +46,13 @@ for (let i = 1; i <= x; i++) {
     factorial *= i
 }
 console.log(factorial)
+
+/* Find the largest number in an array with only positive numbers. */
+
+largest = -1
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i]>largest) {
+        largest  = arr[i];
+    }
+}
+console.log(largest)
