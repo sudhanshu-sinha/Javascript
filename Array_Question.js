@@ -18,3 +18,4 @@ console.log(array.slice(array.length-n))
 
 console.log(array.includes(9))
 console.log(array.includes(99))
+
