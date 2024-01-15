@@ -21,4 +21,5 @@ let employee = {
 }
 
 console.log(employee.fullName())
+console.log(employee.uid)
 
