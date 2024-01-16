@@ -23,3 +23,8 @@ let employee = {
 console.log(employee.fullName())
 console.log(employee.uid)
 
+Object.freeze(employee) //we can not change any thing in employee
+
+employee.uid= "21bcs9735"
+console.log(employee.uid)
+
